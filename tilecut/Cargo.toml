@@ -1,0 +1,5 @@
+[package]
+
+name = "tilecut"
+version = "0.0.1"
+authors = ["Martin Muñoz <im.mmun@gmail.com>"]
