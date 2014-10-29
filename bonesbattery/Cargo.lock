@@ -1,0 +1,21 @@
+[root]
+name = "bonesbattery"
+version = "0.0.1"
+dependencies = [
+ "scan 0.5.1 (git+https://github.com/DanielKeep/rust-scan.git#c5b3a36c72d650fb2de377f5fb9e3b469a20b3ca)",
+ "scan_util 0.5.0 (git+https://github.com/DanielKeep/rust-scan-util.git#af32461809b09d711954de3766515e49c14af542)",
+]
+
+[[package]]
+name = "scan"
+version = "0.5.1"
+source = "git+https://github.com/DanielKeep/rust-scan.git#c5b3a36c72d650fb2de377f5fb9e3b469a20b3ca"
+dependencies = [
+ "scan_util 0.5.0 (git+https://github.com/DanielKeep/rust-scan-util.git#af32461809b09d711954de3766515e49c14af542)",
+]
+
+[[package]]
+name = "scan_util"
+version = "0.5.0"
+source = "git+https://github.com/DanielKeep/rust-scan-util.git#af32461809b09d711954de3766515e49c14af542"
+

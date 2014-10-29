@@ -1,0 +1,10 @@
+[package]
+name = "bonesbattery"
+version = "0.0.1"
+authors = ["Martin Muñoz <im.mmun@gmail.com>"]
+
+[dependencies.scan]
+git = "https://github.com/DanielKeep/rust-scan.git"
+
+[dependencies.scan_util]
+git = "https://github.com/DanielKeep/rust-scan-util.git"
